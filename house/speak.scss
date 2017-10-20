@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #EAEAEA;
+    .hea-le{
+        width: 30%;
+        height: 100%;
+        float: left;
+        img{
+            width: 6.86rem;
+            height: 2.8rem;
+            margin-top: 0.6rem;
+            margin-left: 0.64rem;
+        }
+    }
+    .hed-ce{
+        font-size: 1.2rem;
+        line-height: 4rem;
+        text-align: center;
+        margin-left: 2.2rem;
+    }
+    .hea-ri{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    ul{
+        width: 100%;
+        height: 100%;
+        list-style: none;
+//      display: flex;
+//      justify-content: space-around;
+        li{
+            width:20.33%;
+            height: 100%;
+            float: right;
+            text-align: center;
+            span{
+                font-size:101rem;
+                color: #999999;
+            }
+            p{
+                font-size: 0.7rem;
+                color: #999999;
+            }
+            .p1{
+                margin-top: 0.85rem;
+            }
+        }
+    }
+}
+.box{
+    width:100%;
+    position: absolute;
+    z-index: 999;
+    .b1{
+        width: 100%;
+        height:20rem;
+        background: black;
+        opacity: 0.75;
+    }
+    .b2{
+        width: 100%;
+        height:9.8334rem;
+        background:#F4F4F4 ;
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+            padding-top:3rem;
+            span{
+                color: #00BE9C;
+            }
+        }
+    }
+    img{
+        width: 100%;
+    }
+    
+    
+}
+.content{
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #EAEAEA;
+    .pl{
+        width:100%;
+        margin-top:1.2rem;
+       display: flex;
+       margin-bottom: 1.2rem;
+//     justify-content: space-around;
+        .iconfont{
+            width:2rem;
+            height: 2rem;
+//         font-size: 2rem;
+           color: white;
+           background: #dcdcdc;
+           border-radius: 50%;
+           line-height: 2rem;
+           text-align: center;
+           margin-left: 0.5rem;
+        }
+        .p1{
+//          display: inline-block;
+            width:60% ;
+            color: #00BE9C;
+            font-size:0.93rem ;
+            padding-left: 0.67rem;
+            padding-right: 0.67rem;
+        }
+        .p2{
+            font-size: 0.93rem;
+            color:#999;
+        }
+    }
+    p{
+        margin-left:0.5rem;
+        font-size: 1.2rem;
+    }
+}
+.btn{
+    width:95%;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    button{
+       color: white;
+       background: #00BE9C;
+       font-style: 1.2rem;
+       height: 2.7334rem;
+       width: 30%;
+       border: 1px solid #EAEAEA;
+    }
+    span{
+        width: 30%;
+        display: inline-block;
+        text-align: center;
+    }
+}
+.footer{
+    margin-left:1rem;
+    margin-right:1rem;
+    p{
+    font-size: 0.933rem;
+    color: #333;
+    margin-top:1.2rem;
+    }
+}
+.fuwu{
+//  margin-left: 0.9rem;
+//  margin-right: 0.9rem;
+    text-align: center;
+    p{
+        margin-top: 1.8rem;
+        color:#55A532 ;
+        display: flex;
+        justify-content: center;
+        font-size:0.933rem;
+        span{
+            font-size: 1.4rem;
+            color: #333333;
+        }
+    }
+    ul{
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    footer{
+        width: 100%;
+        height: 5.3rem;
+        display: flex;
+        background-color: #000000; opacity: 0.8;
+        line-height: 5.3rem;
+        img:nth-of-type(1){
+            width:1.8rem;
+            height:1.8rem;
+        }
+        img:nth-of-type(2){
+            height:5rem;
+            width:12rem;
+            margin-left:0.9rem;
+            margin-top: 0.6rem;
+        }
+        span{
+            width:5.83rem;
+            height:1.67rem;
+            background-color: #FEB605;
+            color: white;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 1.50rem;
+            line-height:1.67rem;
+            margin-left: 1rem;
+        }
+    }
+}

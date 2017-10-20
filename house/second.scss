@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    width: 100%;
+}
+.hd {
+    background: #39c893;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    .hdimg {
+        width: 20%;
+        height: 5rem;
+        float: left;
+        margin-left: 0.5rem;
+        margin-top: 0.25rem;
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+    .hd1 {
+        margin-left: 1rem;
+        margin-top: 0.75rem;
+        width: 83%;
+        height: 2.5rem;
+        .hd1-d1 {
+            width: 50%;
+            img {
+                width: 8.45rem;
+                height: 1rem;
+            }
+        }
+        .hd1-d2 {
+            margin-top: 0.5rem;
+            width: 83%;
+            height: 1rem;
+            line-height: 1rem;
+            background: #2bb280;
+            border-radius: 10px;
+            text-align: center;
+        }
+    }
+    .icon-close {
+        color: #202020;
+    }
+}
+
+.inp {
+    line-height: 2.5rem;
+    height: 2.5rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    .in1 {
+        color: #aaa;
+        //      font-size: 0.26rem;
+        width: 65%;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        border: 0.1rem solid #39c893;
+    }
+    button {
+        background: #39c893;
+        width: 6.9rem;
+        height: 2.6rem;
+        line-height: 2.5rem;
+        border: none;
+        color: white;
+        //      margin-top: -0.1rem;
+    }
+}
+
+.fl {
+    width: 100%;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    div {
+        color: #000;
+        font-size: 1.25rem;
+        width: 33%;
+        border-bottom: 0.1rem solid #39c893;
+    }
+}
+
+.fl2 {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    div {
+        span {
+            color: #39c893;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 0.6rem;
+            margin-top: 0.8rem;
+        }
+    }
+}
+button{
+    width:90%;
+    height: 2.33rem;
+    border: 1px solid #00BE9C;
+    color:#00BE9C;
+    background: white;
+    margin-left: 1rem;
+    margin-top:1rem;
+    border-radius:0.67rem ;
+}
+.content5{
+     width: 100%;
+    p{
+        margin-top:1.07rem;
+        font-size:1.2rem;
+        margin-left: 0.5rem;
+        margin-bottom:1.6rem ;
+    }
+    span{
+        width:5rem;
+        height:4.2rem;
+        color:#00BE9C  ;
+    }
+     .con5{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img{
+                width:6.33rem;
+                height: 4.83rem;
+                margin-top:1.07rem;
+                margin-bottom: 1.034rem;
+                margin-left:1rem;
+        }
+            p{
+                font-size: 1.2rem;
+                margin-left:0.73rem;
+            }
+    }
+      .select{
+        width: 100%;
+        button{
+        width:95%;
+        border:0.1rem solid #EEEEEE;
+        color: #00BE9C;
+        font-size:1.4rem ;
+        background: white;
+        height:3.5rem;
+        }
+        
+    } 
+} 
+.footer{
+    margin-left:1rem;
+    margin-right:1rem;
+    p{
+    font-size: 0.933rem;
+    color: #333;
+    margin-top:1.2rem;
+    }
+}
+.fuwu{
+//  margin-left: 0.9rem;
+//  margin-right: 0.9rem;
+    text-align: center;
+    p{
+        margin-top: 1.8rem;
+        color:#55A532 ;
+        display: flex;
+        justify-content: center;
+        font-size:0.933rem;
+        span{
+            font-size: 1.4rem;
+            color: #333333;
+        }
+    }
+    ul{
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    footer{
+        width: 100%;
+        height: 5.3rem;
+        display: flex;
+        background-color: #000000; opacity: 0.8;
+        line-height: 5.3rem;
+        img:nth-of-type(1){
+            width:1.8rem;
+            height:1.8rem;
+        }
+        img:nth-of-type(2){
+            height:5rem;
+            width:12rem;
+            margin-left:0.9rem;
+            margin-top: 0.6rem;
+        }
+        span{
+            width:5.83rem;
+            height:1.67rem;
+            background-color: #FEB605;
+            color: white;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 1.50rem;
+            line-height:1.67rem;
+            margin-left: 1rem;
+        }
+    }
+}
+   

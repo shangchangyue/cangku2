@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem; }
+  header .iconfont {
+    font-size: 1.2rem;
+    color: #EAEAEA; }
+  header .n1 p {
+    font-size: 1rem; }
+
+.container {
+  width: 100%;
+  height: 30rem;
+  background: #202020; }
+  .container img {
+    width: 100%;
+    margin-top: 3rem; }
+  .container .img {
+    width: 100%; }
+    .container .img img {
+      width: 100%;
+      height: 4.5rem;
+      margin-top: -1.5rem; }
+  .container .wz {
+    height: 2rem; }
+    .container .wz p {
+      font-size: 1.2rem;
+      line-height: 2rem;
+      color: white;
+      height: 1.5rem; }
+
+.footer {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  .footer p {
+    font-size: 0.933rem;
+    color: #333;
+    margin-top: 1.2rem; }
+
+.fuwu {
+  text-align: center; }
+  .fuwu p {
+    margin-top: 1.8rem;
+    color: #55A532;
+    display: flex;
+    justify-content: center;
+    font-size: 0.933rem; }
+    .fuwu p span {
+      font-size: 1.4rem;
+      color: #333333; }
+  .fuwu ul {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around; }
+  .fuwu footer {
+    width: 100%;
+    height: 3.3rem;
+    line-height: 3.3rem;
+    background: #FF4351;
+    opacity: 80%; }
+    .fuwu footer .iconfont {
+      font-size: 1.87rem;
+      color: white; }
+    .fuwu footer span {
+      font-size: 1.2rem;
+      color: white;
+      text-align: center; }

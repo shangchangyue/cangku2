@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    .hea-le{
+        width: 30%;
+        height: 100%;
+        float: left;
+        img{
+            width: 6.86rem;
+            height: 2.8rem;
+            margin-top: 0.6rem;
+            margin-left: 0.64rem;
+        }
+    }
+    .hed-ce{
+        font-size: 1.2rem;
+        line-height: 4rem;
+        text-align: center;
+        margin-left: 2.2rem;
+    }
+    .hea-ri{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    ul{
+        width: 100%;
+        height: 100%;
+        list-style: none;
+//      display: flex;
+//      justify-content: space-around;
+        li{
+            width:20.33%;
+            height: 100%;
+            float: right;
+            text-align: center;
+            span{
+                font-size:101rem;
+                color: #999999;
+            }
+            p{
+                font-size: 0.7rem;
+                color: #999999;
+            }
+            .p1{
+                margin-top: 0.85rem;
+            }
+        }
+    }
+}
+img{
+    width: 100%;
+}
+.logo{
+   width: 100%; 
+   height:8rem ;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 1.2rem;
+   text-align: center;
+   div{
+       width:4rem;
+       height:4rem;
+//     line-height:6rem;
+       border-radius:50%;
+       background: #00BE9C;
+       text-align: center;
+       .iconfont{
+           color: white;
+           font-size: 2.33rem;
+           text-align: center;
+       }
+       p{
+           width:10rem;
+           margin-top:1.07rem ;
+           font-size: 0.8rem;
+       }
+   }
+}
+.content{
+    width: 100%;
+    height:13rem;
+    background:#F4F4F4;
+    img{
+        width: 40%;
+        margin-top: 0.8334rem;
+        margin-left:7rem;
+    }
+    p{
+        text-align: center;
+    }
+}
+.footer{
+    margin-left:1rem;
+    margin-right:1rem;
+    p{
+    font-size: 0.933rem;
+    color: #333;
+    margin-top:1.2rem;
+    }
+}
+.fuwu{
+//  margin-left: 0.9rem;
+//  margin-right: 0.9rem;
+    text-align: center;
+    p{
+        margin-top: 1.8rem;
+        color:#55A532 ;
+        display: flex;
+        justify-content: center;
+        font-size:0.933rem;
+        span{
+            font-size: 1.4rem;
+            color: #333333;
+        }
+    }
+    ul{
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    img{
+        margin-top: 0.5rem;
+    }
+ } 

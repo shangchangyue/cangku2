@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #EAEAEA; }
+  header .hea-le {
+    width: 30%;
+    height: 100%;
+    float: left; }
+    header .hea-le img {
+      width: 6.86rem;
+      height: 2.8rem;
+      margin-top: 0.6rem;
+      margin-left: 0.64rem; }
+  header .hed-ce {
+    font-size: 1.2rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: 2.2rem; }
+  header .hea-ri {
+    width: 40%;
+    height: 100%;
+    float: left; }
+  header ul {
+    width: 100%;
+    height: 100%;
+    list-style: none; }
+    header ul li {
+      width: 20.33%;
+      height: 100%;
+      float: right;
+      text-align: center; }
+      header ul li span {
+        font-size: 101rem;
+        color: #999999; }
+      header ul li p {
+        font-size: 0.7rem;
+        color: #999999; }
+      header ul li .p1 {
+        margin-top: 0.85rem; }
+
+.them {
+  width: 100%;
+  margin-top: 1.2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem; }
+  .them .t1 {
+    font-size: 0.93rem; }
+    .them .t1 span {
+      width: 5rem;
+      display: inline-block;
+      background: #00BE9C;
+      color: white;
+      border-radius: 0.33rem;
+      margin-left: 0.67rem;
+      text-align: center; }
+  .them .t2 {
+    margin-top: 1rem;
+    font-size: 0.8rem; }
+    .them .t2 span {
+      color: #999;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem; }
+  .them p {
+    margin-top: 1rem;
+    font-size: 0.8rem; }
+    .them p span {
+      color: #999; }
+  .them button {
+    background: white;
+    width: 48%;
+    height: 2.33rem;
+    margin-top: 1rem;
+    border: 1px solid #EAEAEA; }
+  .them .btn1 {
+    color: #1B9AF7; }
+  .them .btn2 {
+    color: #00BE9C; }
+
+.wufei {
+  margin-top: 0.768rem;
+  display: flex;
+  font-size: 0.6rem;
+  background-color: #F4F4F4; }
+  .wufei p {
+    margin-top: 0.768rem;
+    margin-left: 0.468rem;
+    margin-bottom: 0.768rem; }
+  .wufei span {
+    color: #38CA94;
+    border-bottom: 1px solid #38CA94; }
+  .wufei p:nth-of-type(2) {
+    margin-left: 2rem; }
+    .wufei p:nth-of-type(2) span {
+      color: #999999;
+      border: 0; }
+
+.chenggong {
+  width: 100%;
+  background-color: #F4F4F4;
+  height: 100%; }
+  .chenggong .qiu {
+    width: 80%;
+    display: flex;
+    margin-left: 0.468rem; }
+    .chenggong .qiu li:nth-of-type(1) {
+      margin-top: 0.16rem;
+      height: 0.96rem;
+      width: 0.96rem;
+      background-color: #39c895;
+      border-radius: 50%; }
+    .chenggong .qiu li:nth-of-type(2) {
+      margin-top: 0.64rem;
+      width: 0.96rem;
+      height: 1px;
+      background-color: #39C895; }
+    .chenggong .qiu li:nth-of-type(3) {
+      display: flex;
+      justify-content: space-between;
+      background-color: #EAEAEA;
+      height: 1.28rem;
+      width: 6rem;
+      font-size: 0.6rem;
+      line-height: 1.28rem;
+      color: #666666; }
+      .chenggong .qiu li:nth-of-type(3) p {
+        width: 1.8rem;
+        color: white;
+        text-align: center;
+        background-color: #39C895; }
+    .chenggong .qiu li:nth-of-type(4) {
+      margin-left: 0.2rem;
+      width: 4rem;
+      background-color: #FAB505;
+      color: white;
+      text-align: center;
+      line-height: 1.28rem;
+      font-size: 0.6rem; }
+  .chenggong .yanshou {
+    margin-top: 0.64rem;
+    font-size: 0.6rem;
+    margin-left: 2.25rem;
+    margin-bottom: 0.64rem; }
+  .chenggong .tu {
+    width: 80%;
+    display: flex;
+    margin-left: 2.25rem; }
+    .chenggong .tu img {
+      width: 30%;
+      height: 50%;
+      margin-left: 0.128rem;
+      margin-top: 0.128rem; }
+
+.chenggong3 {
+  width: 100%;
+  background-color: #F4F4F4;
+  height: 50%; }
+  .chenggong3 .qiu {
+    width: 80%;
+    display: flex;
+    margin-left: 0.468rem; }
+    .chenggong3 .qiu li:nth-of-type(1) {
+      margin-top: 0.16rem;
+      height: 0.96rem;
+      width: 0.96rem;
+      background-color: #39c895;
+      border-radius: 50%; }
+    .chenggong3 .qiu li:nth-of-type(2) {
+      margin-top: 0.64rem;
+      width: 0.96rem;
+      height: 1px;
+      background-color: #39C895; }
+    .chenggong3 .qiu li:nth-of-type(3) {
+      display: flex;
+      justify-content: space-between;
+      background-color: #EAEAEA;
+      height: 1.28rem;
+      width: 6rem;
+      font-size: 0.6rem;
+      line-height: 1.28rem;
+      color: #666666; }
+      .chenggong3 .qiu li:nth-of-type(3) p {
+        width: 1.8rem;
+        color: white;
+        text-align: center;
+        background-color: #39C895; }
+    .chenggong3 .qiu li:nth-of-type(4) {
+      margin-left: 0.2rem;
+      width: 4rem;
+      background-color: #FAB505;
+      color: white;
+      text-align: center;
+      line-height: 1.28rem;
+      font-size: 0.6rem; }
+  .chenggong3 .yanshou {
+    margin-top: 0.64rem;
+    font-size: 0.6rem;
+    margin-left: 2.25rem;
+    margin-bottom: 0.64rem; }
+  .chenggong3 .tu {
+    width: 80%;
+    display: flex;
+    margin-left: 2.25rem; }
+    .chenggong3 .tu img {
+      width: 92%;
+      height: 50%;
+      margin-left: 0.128rem;
+      margin-top: 0.128rem; }
+
+.footer {
+  margin-left: 1rem;
+  margin-right: 1rem; }
+  .footer p {
+    font-size: 0.933rem;
+    color: #333;
+    margin-top: 1.2rem; }
+
+.fuwu {
+  text-align: center; }
+  .fuwu p {
+    margin-top: 1.8rem;
+    color: #55A532;
+    display: flex;
+    justify-content: center;
+    font-size: 0.933rem; }
+    .fuwu p span {
+      font-size: 1.4rem;
+      color: #333333; }
+  .fuwu ul {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around; }
+  .fuwu footer {
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    background-color: #000000;
+    opacity: 0.8;
+    line-height: 5.3rem; }
+    .fuwu footer img:nth-of-type(1) {
+      width: 1.8rem;
+      height: 1.8rem; }
+    .fuwu footer img:nth-of-type(2) {
+      height: 5rem;
+      width: 12rem;
+      margin-left: 0.9rem;
+      margin-top: 0.6rem; }
+    .fuwu footer span {
+      width: 5.83rem;
+      height: 1.67rem;
+      background-color: #FEB605;
+      color: white;
+      border-radius: 15px;
+      text-align: center;
+      margin-top: 1.50rem;
+      line-height: 1.67rem;
+      margin-left: 1rem; }

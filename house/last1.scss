@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    .hea-le{
+        width: 30%;
+        height: 100%;
+        float: left;
+        img{
+            width: 6.86rem;
+            height: 2.8rem;
+            margin-top: 0.6rem;
+            margin-left: 0.64rem;
+        }
+    }
+    .hed-ce{
+        font-size: 1.2rem;
+        line-height: 4rem;
+        text-align: center;
+        margin-left: 2.2rem;
+    }
+    .hea-ri{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    ul{
+        width: 100%;
+        height: 100%;
+        list-style: none;
+//      display: flex;
+//      justify-content: space-around;
+        li{
+            width:20.33%;
+            height: 100%;
+            float: right;
+            text-align: center;
+            span{
+                font-size:101rem;
+                color: #999999;
+            }
+            p{
+                font-size: 0.7rem;
+                color: #999999;
+            }
+            .p1{
+                margin-top: 0.85rem;
+            }
+        }
+    }
+}
+.footer{
+    margin-left:1rem;
+    margin-right:1rem;
+    p{
+    font-size: 0.933rem;
+    color: #333;
+    margin-top:1.2rem;
+    }
+}
+.fuwu{
+//  margin-left: 0.9rem;
+//  margin-right: 0.9rem;
+    text-align: center;
+    p{
+        margin-top: 1.8rem;
+        color:#55A532 ;
+        display: flex;
+        justify-content: center;
+        font-size:0.933rem;
+        span{
+            font-size: 1.4rem;
+            color: #333333;
+        }
+    }
+    ul{
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    img{
+        margin-top: 0.5rem;
+    }
+ } 
+ 
+ .input {
+        width: 100%;
+        margin-top: 1.8rem;
+        margin-left: 10%;
+        position: relative;
+        input {
+            width: 80%;
+            height: 3.3rem;
+            border: 2px solid #f0f0f0;
+            margin-top: 0.5rem;
+            color: black;
+            padding-left: 0.8rem;
+        }
+        .sel1 {
+            font-size: 1.5rem;
+            width: 83.5%;
+            height: 3.3rem;
+            border: 2px solid #f0f0f0;
+            margin-top: 0.5rem;
+            color: black;
+            padding-left: 0.8rem;
+        }
+        i {
+            top: 1.5rem;
+            right: 6.5rem;
+            position: absolute;
+        }
+        input:nth-of-type(1) {
+            color: #cacaca;
+        }
+        .sel2 {
+            display: flex;
+            select {
+                width: 40%;
+                height: 3.3rem;
+                border: 2px solid #f0f0f0;
+                margin-top: 0.5rem;
+                color: black;
+                padding-left: 0.8rem;
+                margin-right: 1rem;
+            }
+        }
+        .sel3 {
+            display: flex;
+            select {
+                font-size: 1.5rem;
+                width: 25.5%;
+                height: 3.3rem;
+                border: 2px solid #f0f0f0;
+                margin-top: 0.5rem;
+                color: black;
+                padding-left: 0.8rem;
+                margin-right: 1rem;
+            }
+        }
+        .button {
+            width: 80%;
+            height: 3.5rem;
+            background: #feb605;
+            color: white;
+            font-size: 1.65rem;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+
+
+
+
+
+
+.hjg{
+    margin-left: 0.45rem;
+    margin-top: 2rem;
+   
+    width: 95%;
+    text-align: center;
+    div{
+        width: 95%;
+        margin-top: 0.5rem;
+    }
+}
+.ullitup {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        li {
+            width: 32.3%;height: 10rem;
+           
+           padding-top: 2rem;
+            text-align: center;
+            border-left: 1px solid #f4f4f4;
+            border-top: 1px solid #F4F4F4;
+            p {
+                width: 100%;
+                text-align: center;
+            }
+            .chang {
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+                background: #39c893;
+                margin-left: 18%;
+                line-height: 5rem;
+                i {
+                    font-size: 2.85rem;
+                    color: white;
+                }
+            }
+            .ping {
+                color: black;
+                margin-top: 0.5rem;
+            }
+            .ban {
+                width: 90%;
+                margin: auto;
+                color: #666666;
+                font-size: 0.7rem;
+                margin-top: 0.5rem;
+            }
+            
+        }
+        li:nth-of-type(3){
+            border-top: none;
+        }
+        li:nth-of-type(1){
+            border-top: none;
+        }
+         li:nth-of-type(2){
+            border-top: none;
+        }
+    }
